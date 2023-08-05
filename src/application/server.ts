@@ -1,7 +1,7 @@
 import express from 'express'
 import cors from 'cors'
 
-const getServer = async () => {
+export const getServer = async () => {
   const app = express()
 
   app.use(express.json())
